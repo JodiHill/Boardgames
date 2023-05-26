@@ -15,7 +15,7 @@ C:/Users/joell/OneDrive/Desktop/Boardgames/Boardgames/Belletje Trek
 -logFile
 Logs/AssetImportWorker8.log
 -srvPort
-59496
+56576
 Successfully changed project path to: C:/Users/joell/OneDrive/Desktop/Boardgames/Boardgames/Belletje Trek
 C:/Users/joell/OneDrive/Desktop/Boardgames/Boardgames/Belletje Trek
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/joell/OneDrive/Desktop/Boardgames/Boardgames/Belletje Trek
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14220] Host "[IP] 192.168.68.112 [Port] 0 [Flags] 2 [Guid] 3026935237 [EditorId] 3026935237 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13784] Host "[IP] 192.168.68.112 [Port] 0 [Flags] 2 [Guid] 2273347596 [EditorId] 2273347596 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14220] Host "[IP] 192.168.68.112 [Port] 0 [Flags] 2 [Guid] 3026935237 [EditorId] 3026935237 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13784] Host "[IP] 192.168.68.112 [Port] 0 [Flags] 2 [Guid] 2273347596 [EditorId] 2273347596 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 57.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,75 +67,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002191 seconds.
+Registered in 0.003333 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.400 seconds
+- Completed reload, in  0.534 seconds
 Domain Reload Profiling:
-	ReloadAssembly (400ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (534ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (288ms)
-			LoadAssemblies (45ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (59ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (179ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002564 seconds.
+Registered in 0.002555 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\joell\OneDrive\Desktop\Boardgames\Boardgames\Belletje Trek\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\joell\OneDrive\Desktop\Boardgames\Boardgames\Belletje Trek\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.605 seconds
+- Completed reload, in  0.680 seconds
 Domain Reload Profiling:
-	ReloadAssembly (605ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (681ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (465ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (207ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (229ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -143,13 +143,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.6 KB). Loaded Objects now: 3512.
-Memory consumption went from 108.2 MB to 108.1 MB.
-Total: 2.208200 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.914400 ms  DeleteObjects: 0.075400 ms)
+Unloading 3054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.3 KB). Loaded Objects now: 3515.
+Memory consumption went from 109.4 MB to 109.3 MB.
+Total: 3.359900 ms (FindLiveObjects: 0.292700 ms CreateObjectMapping: 0.107300 ms MarkObjects: 2.811000 ms  DeleteObjects: 0.147500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,16 +163,178 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 39879.781038 seconds.
-  path: Assets/Assets/Houses/Perfabs/House2.prefab
-  artifactKey: Guid(148c959f2024f81498bfe1a565c3a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Houses/Perfabs/House2.prefab using Guid(148c959f2024f81498bfe1a565c3a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4ca55b21c3d0c1e629617f95742a90') in 0.130238 seconds 
+  Time since last request: 94355.781183 seconds.
+  path: Assets/Assets/Graves/Prefabs/TombHollow_1.prefab
+  artifactKey: Guid(005d1cb2d92e75f4a858cb605ac92fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Graves/Prefabs/TombHollow_1.prefab using Guid(005d1cb2d92e75f4a858cb605ac92fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd028be23120224f9015eb10a4d3b20ff') in 0.141312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1223.683775 seconds.
+  path: Assets/Assets/Exterior_swimming_pool
+  artifactKey: Guid(825c590f4b667a3439c67db1bd9a9e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Exterior_swimming_pool using Guid(825c590f4b667a3439c67db1bd9a9e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15d5bcec92e7cb427b1504abc904fc5') in 0.013718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.623374 seconds.
+  path: Assets/Assets/Swimming Pool
+  artifactKey: Guid(825c590f4b667a3439c67db1bd9a9e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Swimming Pool using Guid(825c590f4b667a3439c67db1bd9a9e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713807177d2870f151c7a853b1cb2e29') in 0.010915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.763649 seconds.
+  path: Assets/Assets/Pool
+  artifactKey: Guid(825c590f4b667a3439c67db1bd9a9e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool using Guid(825c590f4b667a3439c67db1bd9a9e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3542deabc1bb4422fd1af406229fc1ac') in 0.010757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.190470 seconds.
+  path: Assets/Assets/Pool/prefabs
+  artifactKey: Guid(8b46df952f88b1b45aae00231ba6ac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/prefabs using Guid(8b46df952f88b1b45aae00231ba6ac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab324dcc832fc76b7586e889bbaf373c') in 0.011901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062031 seconds.
+  path: Assets/Assets/Pool/prefabs/exterior_swimming_pool.prefab
+  artifactKey: Guid(494a6bdcc93baf2478bb4b288cbfcd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/prefabs/exterior_swimming_pool.prefab using Guid(494a6bdcc93baf2478bb4b288cbfcd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7536765929efc2025f6fbeb10059e6b') in 0.324348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.689744 seconds.
+  path: Assets/Assets/Pool/Scene
+  artifactKey: Guid(5a4284bba7417b7448ffc9f681b6fab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Scene using Guid(5a4284bba7417b7448ffc9f681b6fab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cec0d8b03fc596ac676e90799538e5d') in 0.011538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.121716 seconds.
+  path: Assets/Assets/Pool/Scene/exterior_swimming_pool.unity
+  artifactKey: Guid(540a5db935df133428936bb1e88fcb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Scene/exterior_swimming_pool.unity using Guid(540a5db935df133428936bb1e88fcb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1a2e9eecb4126c1a1e0e9aedc7eb30') in 0.011256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.169752 seconds.
+  path: Assets/Prefabs/exterior_swimming_pool Variant.prefab
+  artifactKey: Guid(1af8da2b72260ba43ac9f8d582a34cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/exterior_swimming_pool Variant.prefab using Guid(1af8da2b72260ba43ac9f8d582a34cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654a2a49afce93daf6c682bab01b5ea0') in 0.110701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.389713 seconds.
+  path: Assets/Scenes/Belletje Trek.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Belletje Trek.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b4cb5dbafb061da3d602a8d2076d87') in 0.010065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.701520 seconds.
+  path: Assets/Assets/Graves/Meshes/GraveType4_VeryDamaged_2.prefab
+  artifactKey: Guid(60667da7dd0fd9c4984df98b1b6aadef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Graves/Meshes/GraveType4_VeryDamaged_2.prefab using Guid(60667da7dd0fd9c4984df98b1b6aadef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3519e0e9906878c86139c6b6331620b') in 0.039700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 128.227326 seconds.
+  path: Assets/Assets/Pool/Scene/exterior_swimming_pool.unity
+  artifactKey: Guid(540a5db935df133428936bb1e88fcb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Scene/exterior_swimming_pool.unity using Guid(540a5db935df133428936bb1e88fcb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a286454d85d926b8ce56f6b8f752546c') in 0.001730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.800556 seconds.
+  path: Assets/Scenes/Belletje Trek.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Belletje Trek.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05854528edea30da169ec9c517be3ecc') in 0.001850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 694.614074 seconds.
+  path: Assets/Assets/Pool/Materials/esp_concrete_black.mat
+  artifactKey: Guid(32f498c36d577454b960180a140f2846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Materials/esp_concrete_black.mat using Guid(32f498c36d577454b960180a140f2846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d418ca1f91fad1898b2a926f53ea68e') in 0.053606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Pool/Materials/esp_tile_color1.mat
+  artifactKey: Guid(5cb0816980c0e174580cb104d2bd2a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Materials/esp_tile_color1.mat using Guid(5cb0816980c0e174580cb104d2bd2a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af76c3ec9a07f14c1a9571b92d2abe44') in 0.018999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/Pool/Materials/esp_stone_trim_r.mat
+  artifactKey: Guid(d18dd813fa24187448cae03b72c40a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Materials/esp_stone_trim_r.mat using Guid(d18dd813fa24187448cae03b72c40a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7efdafe8d4e143eb6f3906d872e7f3') in 0.020777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Pool/Materials/esp_metal_bare.mat
+  artifactKey: Guid(9c4e30ec28fc83c40aff3583d7565c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Materials/esp_metal_bare.mat using Guid(9c4e30ec28fc83c40aff3583d7565c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93714abf0f734585db0ae292787ec472') in 0.018748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Pool/Materials/esp_diving_board.mat
+  artifactKey: Guid(6a94557c64a53994c85c14d34b0604fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Materials/esp_diving_board.mat using Guid(6a94557c64a53994c85c14d34b0604fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88440d83640d9d8a51d361c5714d2f5e') in 0.021262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/Pool/Materials/esp_tile_color3.mat
+  artifactKey: Guid(5cdd7a126a87df74abb970bdfba3664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Materials/esp_tile_color3.mat using Guid(5cdd7a126a87df74abb970bdfba3664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdcf350705bbfc027fa19dd782441bf') in 0.017157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Pool/Materials/esp_tile_color2.mat
+  artifactKey: Guid(c131595ccd122f44990ee25593292f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Materials/esp_tile_color2.mat using Guid(c131595ccd122f44990ee25593292f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7f81a6b78c032e1dcdb6a6f817137a') in 0.020440 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Houses/Perfabs/House5.prefab
-  artifactKey: Guid(9177f38d5b69e5c4a9ff22283c83fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Houses/Perfabs/House5.prefab using Guid(9177f38d5b69e5c4a9ff22283c83fb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444ccf818d8055bea468b6a32ffac7d1') in 0.036404 seconds 
+  path: Assets/Assets/Pool/Materials/esp_light.mat
+  artifactKey: Guid(74114bcbfafb682428ff66913b90473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Materials/esp_light.mat using Guid(74114bcbfafb682428ff66913b90473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96cd2d6ce460b142b53a49a465f550d') in 0.016288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.708337 seconds.
+  path: Assets/Assets/Graves/Materials/LightAtten.mat
+  artifactKey: Guid(a46595a22ce850047a599fa0c87dc90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Graves/Materials/LightAtten.mat using Guid(a46595a22ce850047a599fa0c87dc90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db72641d0b8401e272dde13de55cc1e2') in 0.102047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.839515 seconds.
+  path: Assets/Assets/Graves/Materials/NightSky_SpookyMoon.mat
+  artifactKey: Guid(a8af79bf181c4af46b04dbdd5b210025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Graves/Materials/NightSky_SpookyMoon.mat using Guid(a8af79bf181c4af46b04dbdd5b210025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6924885386fe22d46c011b661048b5b') in 0.016070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002212 seconds.
+  path: Assets/Assets/Graves/Materials/SoftGroundFade.mat
+  artifactKey: Guid(f27a02e224122cb44bc717e6cfa607a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Graves/Materials/SoftGroundFade.mat using Guid(f27a02e224122cb44bc717e6cfa607a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ac7cd2e93254bbf5ed7b7bfb1becbd') in 0.134116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100909 seconds.
+  path: Assets/Assets/Fence/Mats/T1/V1_T1_S1.mat
+  artifactKey: Guid(d15382853af1aa14daf50bfe726fd7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fence/Mats/T1/V1_T1_S1.mat using Guid(d15382853af1aa14daf50bfe726fd7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e6f0c37dc15df556494c35c392502d') in 0.024001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018208 seconds.
+  path: Assets/Assets/Pool/Water/Materials/Water4Advanced.mat
+  artifactKey: Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Water/Materials/Water4Advanced.mat using Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a451a4b2eb5b32b4a05edfb7e53ae8') in 0.014147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Pool/Water/Materials/Water4Simple.mat
+  artifactKey: Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Water/Materials/Water4Simple.mat using Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2446f80fb9cf4003f71f297a7088de8a') in 0.053906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.747934 seconds.
+  path: Assets/Assets/Pool/Textures/esp_diving_board.png
+  artifactKey: Guid(6e4a61d5928a2d24eb741c44a14ba449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Textures/esp_diving_board.png using Guid(6e4a61d5928a2d24eb741c44a14ba449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3e1e2f2d2d7343c5c69d5f7ee00c89') in 0.076145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Pool/Textures/esp_tile_color2.png
+  artifactKey: Guid(7260a4fae2bbb3a4485112fe62553330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Pool/Textures/esp_tile_color2.png using Guid(7260a4fae2bbb3a4485112fe62553330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1afc0a8411341e7c0963babfd789ef') in 0.018684 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
