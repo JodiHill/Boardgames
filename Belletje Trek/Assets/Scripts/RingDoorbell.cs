@@ -5,22 +5,34 @@ using UnityEngine;
 public class RingDoorbell : MonoBehaviour
 {
 
+    public GameObject DoorbellText;
     public AudioSource Doorbell;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        DoorbellText.SetActive(false);
     }
 
     // Update is called once per frame
-    void Update()
+    void OnTriggerStay(Collider other)
     {
-
-        if (Input.GetKeyDown(KeyCode.E)) 
+        if (other.gameObject.tag == "Player")
         {
-           Doorbell.Play();
+
+            DoorbellText.SetActive(true);
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Doorbell.Play();
+            }
+
         }
-        
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        DoorbellText.SetActive(false);
+    }
+
 }

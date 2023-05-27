@@ -27898,7 +27898,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 23.714073, y: 21.000992, z: 19.799103}
   m_Center: {x: 1.988905, y: 0.0000013114334, z: -0.0000006530298}
---- !u!82 &1794343321
+--- !u!114 &1794343322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794343314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab2124ae9ac27a4f84251a656982713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DoorbellText: {fileID: 978708698}
+  Doorbell: {fileID: 1794343325}
+--- !u!82 &1794343325
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27910,7 +27924,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 813235b75304029469d8068d0a833ce9, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -27994,19 +28008,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1794343322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794343314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bab2124ae9ac27a4f84251a656982713, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Doorbell: {fileID: 1794343321}
 --- !u!1001 &1798481264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28359,8 +28360,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.1367688, y: 2.6003711, z: 2.028496}
-  m_Center: {x: 0.04652514, y: 0.3088733, z: 0.1483161}
+  m_Size: {x: 1.3722059, y: 2.6003711, z: 1.2080938}
+  m_Center: {x: 0.058490876, y: 0.3088733, z: -0.0021243524}
 --- !u!1 &1848172085 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: a5300953c6462ed479f4e71b69fb4c78, type: 3}
