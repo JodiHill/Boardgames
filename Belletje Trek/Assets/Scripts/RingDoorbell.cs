@@ -7,6 +7,7 @@ public class RingDoorbell : MonoBehaviour
 
     public GameObject DoorbellText;
     public AudioSource Doorbell;
+    bool OnTrigger;
 
     // Start is called before the first frame update
     void Start()
@@ -15,24 +16,42 @@ public class RingDoorbell : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
 
-            DoorbellText.SetActive(true);
-
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Doorbell.Play();
-            }
+            OnTrigger = true;
 
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        DoorbellText.SetActive(false);
+        if (other.gameObject.tag == "Player")
+        {
+
+            OnTrigger = false;
+
+        }
+    }
+
+    private void Update()
+    {
+        if (OnTrigger)
+        {
+            DoorbellText.SetActive(true);
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Doorbell.Play();
+                Destroy(this);
+            }
+        }
+        else 
+        {
+            DoorbellText.SetActive(false);
+        }
     }
 
 }
